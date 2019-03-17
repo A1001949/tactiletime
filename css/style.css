@@ -1,0 +1,507 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Ovo', serif;
+}
+
+
+body {
+	background-color: black;
+  position: relative;
+}
+
+video{
+	width: 100%;
+  max-height: calc(100vh - 60px);
+  position: absolute;
+  top: 60px;
+  right: 8vw;
+}
+
+#sign { 
+	width: 30vw;
+	position: absolute;
+	right: 3.5vw;
+  top: 34vw;
+}
+
+path,
+line {
+	fill: none;
+	stroke: white;
+	stroke-width:5;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:15;
+	opacity: 0.8;
+}
+
+.E {
+  	stroke-dasharray: 1065;
+  	animation: write1 4s linear;
+}
+
+.rion {
+    stroke-dasharray: 600;
+    animation: write2 4s linear;
+}
+
+.T {
+  	stroke-dasharray: 1065;
+  	animation: write3 4s linear;
+}
+
+.ulina {
+  	stroke-dasharray: 900;
+  	animation: write4 4s linear;
+}
+
+.dot1 {
+    stroke-dasharray: 100;
+    animation: write5 4s linear;
+}
+
+.dot2 {
+    stroke-dasharray: 100;
+    animation: write6 4s linear;
+}
+
+@keyframes write1 {
+    0%{
+        stroke-dashoffset: 1065;
+    }
+    15% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write2 {
+    0%, 15% {
+        stroke-dashoffset: 600;
+    }
+    45% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write3 {
+    0%, 45% {
+        stroke-dashoffset: 1065;
+    }
+    60% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write4 {
+    0%, 60% {
+        stroke-dashoffset: 900;
+    }
+    90% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write5 {
+    0%, 90% {
+        stroke-dashoffset: 100;
+    }
+    95% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write6 {
+    0%, 95% {
+        stroke-dashoffset: 100;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+#content {
+	height: 63vw;
+}
+
+#content h1 a{
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  right: 5vw;
+  top: 51vw;
+  font-size: 2vw;
+  font-family: 'Unna', cursive; 
+  color: rgb(177,151,73);
+  transition: color 1s;
+}
+
+#content h1 a:hover{
+  color: rgb(247,221,143);
+}
+
+#content h2 {
+  position: absolute;
+  right: 5vw;
+  top: 53.5vw;
+  font-size: 1.5vw;
+  font-family: 'Unna', cursive; 
+  opacity: 0.8;
+}
+
+.youtube {
+  position: absolute;
+  right: 30.5vw;
+  top: 51.55vw;
+  width: 1.75vw;
+}
+
+.arrow {
+  position: absolute;
+  left: 47vw;
+  top: calc(53vw);
+  width: 5vw;
+}
+
+#aboutcontent {
+  height: 85vw;
+  min-height: calc(280px + 60vw);
+}
+
+.bio {
+  height: 40vw;
+}
+.bio p {
+  margin: 0 0 0 5vw;
+  width: 40vw;
+  font-size:calc(5px + 1vw);
+  line-height:calc(5px + 2.5vw);
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.performances {
+  height: 25vw;
+  min-height: 255px
+}
+
+.performances p {
+  margin: -5vw 5vw 0 0;
+  width: 43vw;
+  font-size:calc(5px + 1vw);
+  line-height:calc(5px + 2.5vw);
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.9);
+  float: right;
+}
+
+.aboutimg {
+  position: absolute;
+  right: 5vw;
+  max-width:50vw;
+}
+
+.listenimg {
+  position: absolute;
+  left: 5vw;
+  margin-top: calc(125px - 20vw);
+  width: 40vw;
+}
+
+#aboutcontent h1 {
+  margin: 0 0 2.5vw 5vw;
+  font-size: calc(10px + 2vw);
+  line-height: 2.5vw;
+  font-family: 'Unna', cursive; 
+  color: rgb(177,151,73);
+}
+
+#gallery {
+  width: 90vw;
+  margin: 0 auto;
+  height: 25vw;
+  min-height: 250px;
+}
+
+#gallery img{
+  height: 15vw;
+  margin: 1vw;
+}
+
+.galcenter {
+  margin-left: 4vw;
+  width: 90vw;
+}
+
+#contactcontent {
+  height: 43vw;
+  min-height: 450px;
+}
+
+#contactcontent img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(200px + 10vw);
+}
+
+#contactcontent h1 {
+  margin: 0 0 2.5vw 5vw;
+  font-size: calc(10px + 2vw);
+  line-height: 2.5vw;
+  font-family: 'Unna', cursive; 
+  color: rgb(177,151,73);
+}
+
+#contactcontent p {
+  margin: 0 0 0 5vw;
+  width: 45vw;
+  font-size:calc(10px + 0.5vw);
+  line-height:calc(10px + 1.5vw);
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#contactcontent .info input {
+  outline: none;
+  margin: 5px 0 10px 5vw;
+  padding: 0 5px 0 5px;
+  width: 42vw;
+  height: 25px;
+  font-size:16px;
+  background-color: black;
+  border: none;
+  outline: 1px solid rgb(157,131,53);
+}
+
+#contactcontent textarea {
+  outline: none;
+  margin: 5px 0 10px 5vw;
+  padding: 5px;
+  width: 42vw;
+  height: 100px;
+  font-size:16px;
+  background-color: black;
+  outline: 1px solid rgb(157,131,53);
+  resize: none;
+}
+
+.rightcenter {
+  height: 43vw;
+  min-height: 450px;
+  width: 45vw;
+  position: absolute;
+  left: 50vw;
+}
+
+#submitbutton {
+  outline: none;
+  margin: 10px 0 10px 5vw;
+  width:calc(42vw + 10px);
+  height: 25px;
+  font-size: 16px;
+  background-color: rgb(157,131,53);
+  border: none;
+  transition: background-color 1s;
+  cursor: pointer;
+  color: black;
+  display:block;
+}
+
+#submitbutton:hover {
+  background-color: rgb(137,111,33);
+}
+
+#performcontent {
+  height: 30vw;
+  min-height: 400px;
+}
+
+#performcontent h1{
+  margin: 0 0 2.5vw 5vw;
+  font-size: calc(10px + 2vw);
+  line-height: 2.5vw;
+  font-family: 'Unna', cursive; 
+  color: rgb(177,151,73);
+}
+
+#performcontent h2 {
+  margin: 0 0 10px 5vw;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+#performcontent h3 {
+  float: left;
+  margin-top: 7px;
+  color: rgb(217,191,113);
+}
+
+#performcontent h5 {
+  text-align: right;
+  opacity: 0.8;
+}
+
+#performcontent h4 {
+  text-align: right;
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.performimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(200px + 10vw);
+}
+
+#header img {
+	margin: 15px 0 15px 5vw;
+  height: 30px;
+	float: left;
+}
+
+#nav {
+	float: right;
+}
+
+#nav li {
+	padding: 20px 5vw 0 0;
+	list-style-type: none;
+	display: table-cell;
+	text-align: center;
+	transition: color 1s;
+}
+
+#nav li a {
+	color: white;
+  font-family: 'Unna', cursive; 
+	text-decoration: none;
+	transition: color 1s;
+	display: block;
+  text-transform: uppercase;
+  font-size: calc(15px + 0.1vw);
+}
+
+#nav li a:hover {
+	color: rgb(247,221,143);
+}
+
+.anchormargin {
+  width: 90vw;
+  height: 10vw;
+  opacity: 0.8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headbox {
+	position:fixed;
+	z-index:3;
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+.line {
+  height: 2px;
+  background-color: rgb(177,151,73);
+  opacity: 0.5;
+}
+
+#footer img {
+  width: 18px;
+  margin-left: calc(49.75vw - 18px);
+}
+
+.boxed {
+  width: 40vw;
+  margin: 0 0 20px 5vw;
+  padding: 10px 10px 10px 20px;
+  background-color: black;
+  outline: 1px solid rgb(177,151,73);
+}
+
+.verticaldiv {
+  width: 2px;
+  height: 32px;
+  background-color: rgb(177,151,73);
+  float: left;
+  margin-left: 20px;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(157,131,53);
+}
+
+#confirm {
+  padding-top: 30vh;
+}
+
+#confirm h1 {
+  text-align: center;
+  font-family: 'Unna', cursive; 
+  color: rgb(177,151,73);
+}
+
+#confirm a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55vh;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: color 1s;
+  text-transform: uppercase;
+}
+
+#confirm a:hover {
+  color: rgb(247,221,143);
+}
+
+
+@media screen and (min-aspect-ratio: 16/9) {
+  .arrow {
+    position: absolute;
+    left: 47vw;
+    top: 94vh;
+    width: 8vh;
+  }
+  #sign { 
+    width: 54vh;
+    position: absolute;
+    right: 3.5vw;
+    top: 60vh;
+  }
+  #content h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 5vw;
+    top: 90.5vh;
+    font-size: 3.5vh;
+    font-family: 'Unna', cursive; 
+    color: rgb(177,151,73);
+    transition: color 1s;
+  }
+  #content h2 {
+    position: absolute;
+    right: 5vw;
+    top: 95vh;
+    font-size: 2.5vh;
+    font-family: 'Unna', cursive; 
+    opacity: 0.8;
+  }
+  .youtube {
+    position: absolute;
+    right: calc(5vw + 45vh);
+    top: 91.55vh;
+    width: 2.75vh;
+  }
+  #content {
+    height: calc(100vh - 60px);
+  }
+}
