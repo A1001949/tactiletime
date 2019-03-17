@@ -29,7 +29,7 @@ button {
   color: #3e4348;
   background-color: #ECEEF1;
   text-align: center;
-  padding: 125px;
+  padding: 125px 0 155px 0;
 }
 
 #heroimg {
@@ -38,7 +38,7 @@ button {
   position: absolute;
   left: 0;
   margin-left: 22vw;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #skematics {
@@ -72,12 +72,25 @@ button {
 
 #newmed {
   margin-top: 75px;
-  width: 100vw;
+  width: 100%;
 }
 
 #watch {
-  margin: 75px 0 75px 0;
-  width: 100vw;
+  margin: 0 0 75px 0;
+  width: 100%;
+}
+
+#currenttime {
+  width: 40vw;
+}
+
+#alarm {
+  width: 40vw;
+}
+
+#finalcode {
+  margin: 0 0 100px 0;
+  width: 40vw;
 }
 
 #m1 {
