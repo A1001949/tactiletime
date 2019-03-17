@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 35px;
+}
+
+button {
+  border-radius: 5px;
+  border: solid 1px #F0F0F0;
+  font-size: 15px;
+  padding: 15px 20px;
+  background-color: #6180EF;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+#hero {
+  color: #3e4348;
+  background-color: #ECEEF1;
+  text-align: center;
+  padding: 125px;
+}
+
+#heroimg {
+  width: 55vw;
+  height: auto;
+  position: absolute;
+  left: 0;
+  margin-left: 22vw;
+  margin-top: 40px;
+}
+
+#skematics {
+  width: 30vw;
+}
+
+#main1 {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#main2 {
+  margin: 0 auto;
+  align-items: center;
+  width: 75vw;
+  justify-content: space-between;
+  display: flex;
+}
+
+#main3 {
+  margin: 50px auto 0 auto;
+  text-align: center;
+  width: 75vw;
+}
+
+#comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newmed {
+  margin-top: 75px;
+  width: 100vw;
+}
+
+#watch {
+  margin: 75px 0 75px 0;
+  width: 100vw;
+}
+
+#m1 {
+  width: 15vw;
+}
+
+#m2 {
+  width: 15vw;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.right {
+  margin-left: 10vw;
+  margin-top: -50px;
+}
+
+.left {
+  margin-right: 10vw;
+  width: 50vw;
+}
+
+.center {
+  width: 50vw;
+  margin: 0 auto;
+}
