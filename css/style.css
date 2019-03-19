@@ -16,42 +16,41 @@ p {
 
 button {
   border-radius: 5px;
-  border: solid 1px #F0F0F0;
   font-size: 15px;
   padding: 15px 20px;
-  background-color: #6180EF;
+  background-color: black;
   color: white;
   outline: none;
   cursor: pointer;
 }
 
 #hero {
-  color: #3e4348;
   background-color: #ECEEF1;
   text-align: center;
-  padding: 125px 0 155px 0;
+  padding: 100px 0 155px 0;
 }
 
 #heroimg {
-  width: 55vw;
+  width: 65vw;
   height: auto;
   position: absolute;
   left: 0;
-  margin-left: 22vw;
+  margin-left: 17vw;
   margin-top: 50px;
 }
 
 #skematics {
-  width: 30vw;
+  width: 25vw;
+  margin-top: -50px;
 }
 
 #main1 {
-  margin-top: 150px;
+  margin-top: 130px;
   text-align: center;
 }
 
 #main2 {
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   align-items: center;
   width: 75vw;
   justify-content: space-between;
@@ -59,14 +58,15 @@ button {
 }
 
 #main3 {
-  margin: 50px auto 0 auto;
+  margin: 100px auto 0 auto;
   text-align: center;
   width: 75vw;
 }
 
 #comments {
+  margin: 50px 0 100px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -76,8 +76,12 @@ button {
 }
 
 #watch {
-  margin: 0 0 75px 0;
+  margin-bottom: 100px;
   width: 100%;
+}
+
+#casing {
+  width: 30vw;
 }
 
 #currenttime {
@@ -94,11 +98,21 @@ button {
 }
 
 #m1 {
-  width: 15vw;
+  width: 30vw;
+  margin-right: 50px;
 }
 
 #m2 {
-  width: 15vw;
+  width: 30vw;
+}
+
+#end {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+  background-color: #ECEEF1;
+  border-top: 1px solid #DFDFDF;
+  align-items: center;
 }
 
 table {
@@ -118,8 +132,7 @@ tr:nth-child(even) {
 }
 
 .right {
-  margin-left: 10vw;
-  margin-top: -50px;
+  margin: -50px 0 0 10vw;
 }
 
 .left {
@@ -127,7 +140,12 @@ tr:nth-child(even) {
   width: 50vw;
 }
 
+.left1 {
+  margin-right: 5vw;
+  width: 70vw;
+}
+
 .center {
-  width: 50vw;
+  width: 55vw;
   margin: 0 auto;
 }
