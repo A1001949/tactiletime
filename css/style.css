@@ -27,7 +27,7 @@ button {
 #hero {
   background-color: #ECEEF1;
   text-align: center;
-  padding: 100px 0 155px 0;
+  padding: 100px 0 140px 0;
 }
 
 #heroimg {
@@ -45,7 +45,7 @@ button {
 }
 
 #main1 {
-  margin-top: 130px;
+  margin-top: 145px;
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ button {
 #end {
   display: flex;
   justify-content: space-between;
-  padding: 5px 70px;
+  padding: 0 70px;
   background-color: #ECEEF1;
   border-top: 1px solid #DFDFDF;
   align-items: center;
