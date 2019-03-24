@@ -2,4 +2,4 @@
 
 Visit www.tactiletime.tk to view the webpage.
 
-This project is developed by Adrian Wong for NMED10H3 2019.
+This project is developed by Adrian Wong for NMED10Y3 2019.
